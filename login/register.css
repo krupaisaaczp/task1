@@ -1,0 +1,95 @@
+/* Reset default margin and padding for body */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: #49a7fa; /* Light background color */
+}
+
+/* Container for the form */
+.container {
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    opacity: 0.9;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2); /* Horizontal and vertical offset, blur, color */
+    border-radius: 10px;
+}
+
+/* Form box styles */
+.form-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow */
+    width: 100%;
+    max-width: 400px; /* Limit the form's max width */
+    border: 1px solid #ccc;
+}
+
+/* Title */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input group styles */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* For the gender radio buttons */
+.input-group .gender-options {
+    display: flex;
+    gap: 20px; /* Add space between each radio button */
+    align-items: center; /* Align vertically in the center */
+}
+
+.input-group .gender-options label {
+    font-size: 14px;
+    color: #555;
+    display: flex;
+    align-items: center; /* Ensure text and radio button are vertically aligned */
+}
+
+.input-group input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Submit button styles */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
